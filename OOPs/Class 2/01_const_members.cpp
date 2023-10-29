@@ -41,7 +41,7 @@ class ConstMembers {
         }
 }; 
 
-void printConstMemberObj(const ConstMembers obj) {
+void printConstMemberObj(const ConstMembers &obj) {
     cout << obj.getA() << " " << obj.getB()<< endl;
 }
 
